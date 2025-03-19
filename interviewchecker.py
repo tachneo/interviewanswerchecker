@@ -25,7 +25,7 @@ requests.Session.request = no_verify_request
 warnings.simplefilter("ignore", urllib3.exceptions.InsecureRequestWarning)
 
 # Replace with your actual Gemini API key. pip install -q -U google-genai
-API_KEY = "AIzaSyDIVrIkx7NsJshjBto6MVdUSP43euqkPn0"
+API_KEY = "AI"
 client = genai.Client(api_key=API_KEY)
 
 # -----------------------------
